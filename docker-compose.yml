@@ -1,6 +1,6 @@
 services:
   meetny-frontend:
-    build: ./frontend
+    build: .
     container_name: meetny-frontend
     expose:
       - "3001"
