@@ -25,7 +25,7 @@ jobs:
       - name: Build and restart frontend container
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
-            cd /home/${{ secrets.SERVER_USER }}/apps/meetny
-            docker-compose build meetny-frontend
-            docker-compose up -d meetny-frontend
+            cd /home/${{ secrets.SERVER_USER }}/apps/meetny/frontend
+            docker-compose build
+            docker-compose up -d
           EOF
