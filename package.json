@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy" : "http://localhost:8081",
+  "proxy" : "https://localhost:8081",
   "private": true,
   "dependencies": {
     "@stomp/stompjs": "^7.1.1",
