@@ -13,6 +13,7 @@ import ParticipatedTabSection from "../components/MyPage/ParticipatedTabSection"
 import Sidebar from "../components/MyPage/Sidebar";
 import FollowersPane from "../components/MyPage/FollowersPane";
 
+
 export default function MyPage() {
     const [user, setUser] = useState(null);
     const [errorMsg, setErrorMsg] = useState("");
